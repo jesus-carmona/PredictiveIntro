@@ -1,5 +1,6 @@
 ##Basic statistics (Descriptive Analytics)
 ## Author: Jesus Carmona
+## add this comment
 
 install.packages("ggplot2")
 library(ggplot2)
