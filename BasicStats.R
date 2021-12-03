@@ -1,5 +1,5 @@
 ##Basic statistics (Descriptive Analytics)
-## Author: Jesus Carmona
+## Author: Jesus Carmona & Jey Carr
 ## add this comment
 
 install.packages("ggplot2")
@@ -35,6 +35,7 @@ cor.test(cars$speed, cars$dis)
 ggplot(cars, aes(speed, dist)) + geom_point() + geom_smooth(method="lm", col="red")
 
 ## Linear regression
+## Add other comments here...
 
 ## normalized data for the model to run
 ## speedZ <- scale(cars$speed, center=TRUE, scale = FALSE)
